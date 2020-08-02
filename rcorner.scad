@@ -7,14 +7,14 @@ module body()
     cube([45,10,20]);
 }
 
-module lcorner()
+module rcorner()
 {
     difference(){
         body();
-       translate([40,10,-11]) cylinder(r=2.7,h=32);
-       translate([10,5,-5]) rotate([90,0,0]) cylinder(r=2.7,h=20);
-       translate([35,5,-5]) rotate([90,0,0]) cylinder(r=2.7,h=20); 
+       translate([40,25,-11]) cylinder(r=2.65,h=32);
+       translate([10,5,-5]) rotate([90,0,0]) cylinder(r=2.65,h=20);
+       translate([35,5,-5]) rotate([90,0,0]) cylinder(r=2.65,h=20); 
     }   
 }
 
-lcorner();
+rotate([180,0,0]) translate([0,0,-20]) rcorner();
