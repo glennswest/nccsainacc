@@ -6,6 +6,7 @@
 - rcorner - Designed to box in your work
 
 ## lcorner
+![Lcorner Photo](/lcorner-photo.png)
 
 ### Usage
 Use openbuids tnuts to hold the part into tracks on the extrusion.
