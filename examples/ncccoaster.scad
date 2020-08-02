@@ -4,7 +4,7 @@
 inch = 25.4;
 
 csize = inch * 4;
-$fn=128;
+$fn=80;
 
 module stcoaster(){
     cylinder(r=csize/2,h=1);
@@ -26,4 +26,14 @@ module stcoaster(){
     }
   }
   
-  stcoaster();
+  //stcoaster();
+  
+  module negative_coaster()
+  {
+      difference(){
+         cylinder(r=csize/2,h=1);
+         translate([0,0,-.5]) stcoaster();
+         } 
+  }
+  
+  rotate([180,0,0]) negative_coaster();
