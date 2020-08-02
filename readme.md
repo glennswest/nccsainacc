@@ -18,5 +18,11 @@ set your work home. Optional, use nylon bolts so even if you cut into it, you do
 ### Printing
 I printed mine in prusament pc blend, alternative petg works well.
 
+## Additional Brackets
+The hold downs I use are from TopGarr
+https://www.thingiverse.com/thing:4553670
+
+Ive included the files here to allow a single place for download. 
+
 ## Ordering parts
 I can print these in pc blend, Its US $10, for left and right. Shipping in USA is 3.50 first class mail.
