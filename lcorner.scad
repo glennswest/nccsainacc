@@ -3,7 +3,7 @@
 module body()
 {
 translate([0,0,0]) cube([10,45,20]);
-translate([0,-10,-10]) cube([45,10,30]);
+translate([0,-10,-15]) cube([45,10,35]);
 cube([45,10,20]);
 }
 
@@ -12,8 +12,8 @@ module lcorner()
     difference(){
         body();
        translate([5,25,-11]) cylinder(r=2.65,h=32);
-       translate([10,5,-5]) rotate([90,0,0]) cylinder(r=2.65,h=20);
-       translate([35,5,-5]) rotate([90,0,0]) cylinder(r=2.65,h=20); 
+       translate([10,5,-7.5]) rotate([90,0,0]) cylinder(r=2.65,h=20);
+       translate([35,5,-7.5]) rotate([90,0,0]) cylinder(r=2.65,h=20); 
     }   
 }
 
