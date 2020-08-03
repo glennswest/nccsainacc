@@ -11,7 +11,7 @@ module rcorner()
 {
     difference(){
         body();
-       translate([40,25,-11]) cylinder(r=2.65,h=32);
+       translate([40,23.5,-11]) cylinder(r=2.65,h=32);
        translate([10,5,-7.5]) rotate([90,0,0]) cylinder(r=2.65,h=20);
        translate([35,5,-7.5]) rotate([90,0,0]) cylinder(r=2.65,h=20); 
     }   
